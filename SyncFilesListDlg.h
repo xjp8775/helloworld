@@ -45,6 +45,10 @@ public:
 	CString g_strPortConfig;
 	CString g_strAppService;
 
+	int num ;
+	CString name;
+	
+	
 // й╣ож
 protected:
 	HICON m_hIcon;
