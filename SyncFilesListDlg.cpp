@@ -15,6 +15,9 @@
 #include <fstream>
 #include "CppSQLite3.h"
 
+
+#include "hhhh.h"
+
 using namespace std;
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -29,6 +32,9 @@ using namespace std;
 
 const int DIR_LEVEL = 1; /// zh add on 01.01 用于截取路径
 int g_dirLevels = 1;
+
+
+int g_totalNum = 0;
 
 struct FILE_PART_DIR 
 {
